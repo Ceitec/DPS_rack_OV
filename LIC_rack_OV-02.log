@@ -1,0 +1,137 @@
+This is pdfTeX, Version 3.141592-1.10b (MiKTeX 2.3) (preloaded format=pdflatex 2003.6.9)  2 APR 2015 11:00
+**LIC_rack_OV-02.tex
+(LIC_rack_OV-02.tex{pdftex.cfg}
+LaTeX2e <2001/06/01>
+Loading CZ hyphenation patterns: Pavel Sevecek, v3, 1995
+Loading SK hyphenation patterns: Jana Chlebikova, 1992
+(C:\tex\share\texmf\tex\latex\base\article.cls
+Document Class: article 2001/04/21 v1.4e Standard LaTeX document class
+(C:\tex\share\texmf\tex\latex\base\size10.clo
+File: size10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\tex\share\localtexmf\tex\cslatex\czech.sty
+Package: czech 2002/07/19 v2.4 CSTeX czech style
+)
+(C:\tex\share\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\tex\share\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\tex\share\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\tex\share\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\tex\share\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2003/03/12 v1.1 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(C:\tex\share\texmf\tex\latex\graphics\pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(C:\tex\share\texmf\tex\latex\graphics\color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(C:\tex\share\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2003/03/08 v1.0 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+)
+(C:\tex\share\texmf\tex\latex\base\textpos.sty
+Package: textpos 2014/01/03 v1.7j
+
+Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
+\TP@textbox=\box26
+\TPHorizModule=\dimen105
+\TPVertModule=\dimen106
+\TP@margin=\dimen107
+\TP@absmargin=\dimen108
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen109
+\TP@tbargs=\toks17
+\TP@prevdepth=\dimen110
+) (LIC_rack_OV-02.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ (C:\tex\share\texmf\tex\context\base\supp-pdf.tex
+(C:\tex\share\texmf\tex\context\base\supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count88
+\scratchcounter=\count89
+\scratchdimen=\dimen111
+\scratchskip=\skip43
+\scratchmuskip=\muskip10
+\scratchbox=\box27
+\scratchread=\read1
+\scratchwrite=\write3
+\nextbox=\box28
+\nextdepth=\dimen112
+\everyline=\toks18
+\!!counta=\count90
+\!!countb=\count91
+\recursecounter=\count92
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count93
+\nofMParguments=\count94
+) <LIC_rack_OV-02_pt.pdf, id=1, 597.23125pt x 845.1575pt>
+File: LIC_rack_OV-02_pt.pdf Graphic file (type pdf)
+
+<use LIC_rack_OV-02_pt.pdf>
+<LIC_rack_OV-02_pb.pdf, id=2, 597.23125pt x 845.1575pt>
+File: LIC_rack_OV-02_pb.pdf Graphic file (type pdf)
+
+<use LIC_rack_OV-02_pb.pdf>
+Overfull \hbox (14.99701pt too wide) in paragraph at lines 26--27
+[][] 
+ []
+
+[1
+
+{psfonts.map}{csfont-e.map} <LIC_rack_OV-02_pt.pdf> <LIC_rack_OV-02_pb.pdf>]
+(LIC_rack_OV-02.aux) ) 
+Here is how much of TeX's memory you used:
+ 1015 strings out of 95509
+ 11500 string characters out of 1189957
+ 60489 words of memory out of 1063727
+ 4125 multiletter control sequences out of 35000
+ 4788 words of font info for 16 fonts, out of 500000 for 1000
+ 24 hyphenation exceptions out of 607
+ 25i,8n,22p,211b,159s stack positions out of 1500i,500n,5000p,200000b,32768s
+ 20 PDF objects out of 65536
+ 0 named destinations out of 20000
+ 10 words of extra memory for PDF output out of 65536
+{csr.enc}<csr10.pfb><csbx10.pfb>
+Output written on LIC_rack_OV-02.pdf (1 page, 63776 bytes).

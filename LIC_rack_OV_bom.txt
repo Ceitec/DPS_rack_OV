@@ -1,0 +1,24 @@
+Partlist exported from D:/Michal/Elektronika/projekty/VUT/LIBS_Tescan/DPS_rack_OV/LIC_rack_OV.sch at 18.6.2014 19:04:13
+
+Qty Value      Device         Parts                                                                   GM                 code   
+1              VG32SP         J1                                                                                                
+1   1R         R-EU_0309/12   R21                                                                                               
+3   2k2        R-EU_R1206     R8, R12, R19                                                            R1206 2k2          900-197
+1   3,3R       R-EU_0309/12   R14                                                                                               
+2   3,3R       R-EU_R1206     R23, R24                                                                                          
+1   7.37       XTAL           Q1                                                                                                
+11  10k        R-EU_R1206     R7, R9, R10, R11, R15, R16, R17, R18, R22, R26, R28                     R1206 10K 1%       900-179
+5   22k        R-EU_R1206     R4, R5, R6, R13, R20                                                    R1206 22K 1%       900-224
+2   22p        C-EUC0805      C4, C5                                                                  CK0805 22P/50V NPO 906-079
+2   47k        R-EU_R1206     R25, R27                                                                R1206 47K 1%       900-116
+3   100k       R-EU_R1206     R1, R2, R3                                                              R1206 100K 1%      900-002
+16  100n       C-EUC1206      C1, C2, C3, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18 CK 1206 100nF      -      
+1   220u/35V   CPOL-EUE3.5-8L C19                                                                                               
+1   75176-SO   75176-SO       IC1                                                                     75176 SMD          959-001
+1   ATPROG-V   ATPROG-V       U1                                                                                                
+2   BDX34      BDX34          Q2, Q4                                                                                            
+2   BZX84C4V7  BZX84C4V7      ZD1, ZD2                                                                                          
+2   D0A-L      D0A-L          KK1, KK2                                                                                          
+1   L-3P90-RED L-3P90-RED     LED1                                                                                              
+1   LM324D     LM324D         IC3                                                                     LM324D SMD         925-002
+1   MEGA8-AI   MEGA8-AI       IC2                                                                     ATmega8-16AU       958-102

@@ -1,0 +1,31 @@
+Proudový stabilizátor pro nastavení svitu LED diod.
+Sestává ze 2 shodných částí, může nezávisle obládat 2 okruhy.
+Maximální proudy by měl být 250 mA.
+
+na vstupu je PWM signál z procesoru. Ten nejprve projde dvoustupňovým RC
+filtrem, čímž vznikne stejnosměrné napětí o hodnotě 0 až 5V. Toto řídící napětí
+je zmenšeno děličem na rozsah 0 až 0,877V. Dálec se napětí porovnává v OZ
+s napětím ze snímacího rezistoru 3,3R. K snímacímu rezistoru je paralelně pro
+jistotu připojen kondenzátor 100n. Výstup OZ budí přes rezistor, který omezuje
+maximální bázový proud tranzistor BDX34C (darlington). Tím je vytvořena proudová
+stabilizace.
+Pro měření proudu procházejícím zátěží je napětí ze snímacího rezistoru 3,3R
+zesíleno dalším OZ se zesílením 3,2. Má již správný napěťový rozsah pro AD vstup
+mikrokontroleru (0 - 2,8V). Pro jistotu je však na výstupu ještě ochranný obvod, který
+zajistí, že se k mikrokontroleru nikdy nedostane napětí větší jak 5V. Ochranný
+obvod sestává z rezistoru 2k2 a zenerovy diody 4,7V. Výstup je opět zatlumen
+kontenzátorem 100n.  
+
+Vstupy:
+CH_1_PWM
+CH_2_PWM
+
+Výstupy:
+CH_1_curr
+CH_2_curr
+
+Připojení osvětlení:
+CH_1_+
+CH_1_-
+CH_2_+
+CH_2_-
