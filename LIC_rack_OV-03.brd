@@ -23,10 +23,10 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -85,8 +85,6 @@
 <text x="11.43" y="43.18" size="1.778" layer="1" font="vector" ratio="17">TOP</text>
 <text x="16.51" y="43.18" size="1.778" layer="16" font="vector" ratio="17" rot="MR0">BOT</text>
 <text x="13.97" y="-41.91" size="1.778" layer="29" font="vector" ratio="17">&gt;DRAWING_NAME</text>
-<dimension x1="-2.54" y1="37" x2="-2.54" y2="64.4525" x3="-12.7" y3="50.72625" textsize="1.778" layer="20"/>
-<dimension x1="-2.54" y1="37" x2="-2.54" y2="5" x3="-12.7" y3="21" textsize="1.778" layer="20"/>
 <text x="37.719" y="33.528" size="1.778" layer="1" font="vector" ratio="10">V-00491-03
 LIC_rack_OV-03
 Lukas Novak
@@ -1384,7 +1382,7 @@ Určeno pro kreslení a export výrobních dat</description>
 </element>
 <element name="R2" library="rcl" package="R1206" value="100k" x="76.2" y="19.05" smashed="yes" rot="MR90">
 <attribute name="NAME" x="77.47" y="17.78" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="73.66" y="17.78" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="77.47" y="20.32" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R5" library="rcl" package="R1206" value="22k" x="76.2" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.93" y="11.43" size="1.27" layer="25" rot="R90"/>
@@ -1392,7 +1390,7 @@ Určeno pro kreslení a export výrobních dat</description>
 </element>
 <element name="R3" library="rcl" package="R1206" value="100k" x="72.39" y="19.05" smashed="yes" rot="MR90">
 <attribute name="NAME" x="73.66" y="17.78" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="69.85" y="17.78" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="73.66" y="20.193" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R6" library="rcl" package="R1206" value="22k" x="72.39" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.12" y="11.43" size="1.27" layer="25" rot="R90"/>
@@ -1400,7 +1398,7 @@ Určeno pro kreslení a export výrobních dat</description>
 </element>
 <element name="R1" library="rcl" package="R1206" value="100k" x="68.58" y="19.05" smashed="yes" rot="MR90">
 <attribute name="NAME" x="69.85" y="17.78" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="66.04" y="17.78" size="1.27" layer="28" rot="MR90"/>
+<attribute name="VALUE" x="69.85" y="20.193" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R4" library="rcl" package="R1206" value="22k" x="68.58" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.31" y="11.43" size="1.27" layer="25" rot="R90"/>
@@ -1443,22 +1441,22 @@ Určeno pro kreslení a export výrobních dat</description>
 </element>
 <element name="IC3" library="linear" package="SO14" value="LM324D" x="118.11" y="-2.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="120.015" y="-7.112" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="120.9675" y="-7.1755" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="122.4915" y="-8.4455" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R16" library="rcl" package="R1206" value="10k" x="96.52" y="-3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="97.79" y="-2.54" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="86.487" y="-1.905" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="95.885" y="-6.0325" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R17" library="rcl" package="R1206" value="10k" x="101.6" y="-3.81" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.33" y="-5.08" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="89.662" y="-1.905" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="100.965" y="-6.0325" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C11" library="rcl" package="C1206" value="100n" x="99.06" y="-3.81" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.79" y="-5.08" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="88.011" y="-1.905" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="98.425" y="-5.08" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C12" library="rcl" package="C1206" value="100n" x="104.14" y="-3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="105.41" y="-2.54" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="91.186" y="-1.905" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="103.505" y="-6.0325" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R20" library="rcl" package="R1206" value="22k" x="127" y="-6.35" smashed="yes" rot="R270">
@@ -1473,19 +1471,19 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="NAME" x="134.239" y="22.225" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="R9" library="rcl" package="R1206" value="10k" x="96.52" y="2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="97.79" y="3.81" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="86.106" y="0.127" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="97.155" y="4.7625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R10" library="rcl" package="R1206" value="10k" x="101.6" y="2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.33" y="1.27" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="89.154" y="0" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="101.9175" y="4.7625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C7" library="rcl" package="C1206" value="100n" x="99.06" y="2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.79" y="1.27" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="87.63" y="0.127" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="99.695" y="4.7625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C8" library="rcl" package="C1206" value="100n" x="104.14" y="2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="105.41" y="3.81" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="90.678" y="-0.127" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="104.4575" y="4.7625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R13" library="rcl" package="R1206" value="22k" x="127" y="1.27" smashed="yes" rot="R90">
@@ -1529,12 +1527,12 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="VALUE" x="104.14" y="-24.765" size="1.27" layer="27"/>
 </element>
 <element name="C14" library="rcl" package="C1206" value="100n" x="126.0475" y="-3.81" smashed="yes" rot="MR180">
-<attribute name="NAME" x="124.7775" y="-5.08" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="124.7775" y="-5.08" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="124.1425" y="-5.08" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="123.5075" y="-6.731" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C10" library="rcl" package="C1206" value="100n" x="126.0475" y="-0.635" smashed="yes" rot="MR180">
-<attribute name="NAME" x="124.7775" y="-1.905" size="1.27" layer="26" rot="MR180"/>
-<attribute name="VALUE" x="124.7775" y="1.905" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="124.1425" y="3.429" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="123.5075" y="1.778" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C15" library="rcl" package="C1206" value="100n" x="82.55" y="-20.32" smashed="yes">
 <attribute name="NAME" x="80.01" y="-20.955" size="1.27" layer="25" rot="R90"/>
@@ -1553,20 +1551,20 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="VALUE" x="140.97" y="14.605" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R25" library="rcl" package="R1206" value="47k" x="106.68" y="2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="107.95" y="3.81" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="92.202" y="-0.127" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="106.9975" y="4.7625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R26" library="rcl" package="R1206" value="10k" x="109.22" y="2.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="110.49" y="3.81" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="93.726" y="-0.127" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="109.5375" y="4.7625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R27" library="rcl" package="R1206" value="47k" x="106.68" y="-3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="107.95" y="-2.54" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="92.71" y="-1.905" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="106.045" y="-6.0325" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R28" library="rcl" package="R1206" value="10k" x="109.22" y="-3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="110.49" y="-2.54" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="110.1725" y="-3.175" size="1.27" layer="27" rot="R270"/>
+<attribute name="NAME" x="94.234" y="-1.905" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="110.2995" y="-2.159" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="Q4" library="transistor-pnp" package="TO220" value="BDX34" x="96.52" y="36.83" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.313" y="33.02" size="1.778" layer="25" ratio="10" rot="R90"/>
@@ -1597,7 +1595,7 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="VALUE" x="145.542" y="35.306" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C20" library="rcl" package="C1206" value="100n" x="111.76" y="2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="110.49" y="1.27" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="95.25" y="-0.127" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="112.395" y="4.7625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C21" library="rcl" package="C1206" value="100n" x="109.22" y="-9.8425" smashed="yes" rot="R270">
@@ -1613,39 +1611,39 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="NAME" x="142.4305" y="7.112" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R29" library="rcl" package="R1206" value="47k" x="142.24" y="-6.35" smashed="yes" rot="MR90">
-<attribute name="NAME" x="143.51" y="-7.62" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="143.51" y="-6.35" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="134.366" y="-6.858" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="143.383" y="-7.747" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="IC4" library="linear" package="TO220H" value="7812T" x="120.65" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="110.998" y="42.291" size="1.778" layer="25" ratio="10"/>
 <attribute name="VALUE" x="106.1085" y="30.734" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="R30" library="rcl" package="R1206" value="47k" x="138.43" y="6.35" smashed="yes" rot="MR270">
-<attribute name="NAME" x="137.16" y="7.62" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="137.16" y="6.35" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="135.509" y="7.874" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="137.033" y="7.874" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R31" library="rcl" package="R1206" value="47k" x="137.16" y="0" smashed="yes" rot="MR90">
-<attribute name="NAME" x="138.43" y="-1.27" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="138.43" y="2.54" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="135.001" y="-1.143" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="138.176" y="-1.397" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="T3" library="transistor" package="SOT23-BEC" value="BC817-25" x="135.255" y="10.4775" smashed="yes" rot="MR90">
-<attribute name="NAME" x="137.16" y="8.5725" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="137.8585" y="12.7" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="134.9375" y="12.7" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="T4" library="transistor" package="SOT23-BEC" value="BC817-25" x="143.8275" y="-11.43" smashed="yes" rot="MR270">
-<attribute name="NAME" x="141.9225" y="-9.525" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="145.542" y="-12.1285" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="145.415" y="-10.4775" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R32" library="rcl" package="R1206" value="47k" x="142.24" y="1.27" smashed="yes" rot="MR270">
-<attribute name="NAME" x="140.97" y="2.54" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="141.224" y="3.175" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="140.97" y="-1.27" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R33" library="rcl" package="R1206" value="47k" x="133.985" y="0" smashed="yes" rot="MR270">
-<attribute name="NAME" x="132.715" y="1.27" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="134.62" y="2.54" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="130.048" y="-1.27" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="131.572" y="-1.397" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R34" library="rcl" package="R1206" value="47k" x="145.415" y="1.27" smashed="yes" rot="MR90">
-<attribute name="NAME" x="146.685" y="0" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="147.701" y="3.302" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="144.78" y="-1.27" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C23" library="rcl" package="E5-13X26-LR" value="CE 1000u 35VIT HIT" x="124.46" y="-15.24" smashed="yes">
@@ -1677,12 +1675,12 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="VALUE" x="112.9665" y="25.6667" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C31" library="rcl" package="C1206" value="100n" x="142.24" y="6.35" smashed="yes" rot="MR90">
-<attribute name="NAME" x="143.51" y="5.08" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="142.24" y="10.16" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="143.51" y="4.953" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="145.288" y="4.953" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C32" library="rcl" package="C1206" value="100n" x="139.065" y="-6.35" smashed="yes" rot="MR270">
-<attribute name="NAME" x="137.795" y="-5.08" size="1.27" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="137.16" y="-6.985" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="132.715" y="-6.858" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="136.525" y="-8.128" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R40" library="rcl" package="R1206" value="560R" x="135.89" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="134.62" y="-1.27" size="1.27" layer="25" rot="R90"/>
@@ -1746,16 +1744,16 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="VALUE" x="15.24" y="31.75" size="1.27" layer="27"/>
 </element>
 <element name="C28" library="rcl" package="C1206" value="100n" x="118.745" y="-27.305" smashed="yes" rot="MR270">
-<attribute name="NAME" x="117.475" y="-26.035" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="117.348" y="-28.956" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="117.475" y="-27.305" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R44" library="rcl" package="R1206" value="22k" x="121.92" y="-27.305" smashed="yes" rot="MR90">
-<attribute name="NAME" x="123.19" y="-28.575" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="123.825" y="-26.67" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="123.825" y="-25.654" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="123.825" y="-27.432" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R45" library="rcl" package="R1206" value="100k" x="121.92" y="-21.59" smashed="yes" rot="MR90">
 <attribute name="NAME" x="123.19" y="-22.86" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="120.65" y="-21.59" size="1.27" layer="28" rot="MR0"/>
+<attribute name="VALUE" x="120.65" y="-18.923" size="1.27" layer="28" rot="MR270"/>
 </element>
 </elements>
 <signals>
