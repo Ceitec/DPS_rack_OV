@@ -19659,6 +19659,14 @@ Based on the following sources:
 <text x="187.96" y="27.94" size="1.778" layer="97">prstenec rozdelit na 2 segmanty</text>
 <text x="76.962" y="135.636" size="1.778" layer="97" font="vector" ratio="12">4.33 V</text>
 <text x="76.962" y="140.716" size="1.778" layer="97" font="vector" ratio="12">2.17 V</text>
+<wire x1="236.22" y1="148.59" x2="255.524" y2="148.59" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="236.22" y1="138.43" x2="255.524" y2="138.43" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="236.22" y1="128.27" x2="255.524" y2="128.27" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="236.22" y1="118.11" x2="255.524" y2="118.11" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="236.22" y1="107.95" x2="255.524" y2="107.95" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="236.22" y1="92.71" x2="255.524" y2="92.71" width="0.1524" layer="97" style="shortdash"/>
+<text x="248.92" y="142.24" size="1.778" layer="97">OV</text>
+<text x="248.92" y="132.08" size="1.778" layer="97">Z</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="27.94" y="15.24"/>
